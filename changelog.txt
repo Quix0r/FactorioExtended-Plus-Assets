@@ -1,0 +1,86 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 26-04-2025
+  Initial import:
+    - added graphics from: core, machines, module, transport, weaponry
+    - added info.json / changelog.txt
+    - added .gitignore / .gitattributes
+    - added scripts/build_package.py for easy ZIP file creation
+--------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 06-03-2025
+  Features:
+    - Allow FE+'s own intermediate products for productivity modules
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 23-02-2025
+  Features:
+    - added Python script for easy deployment (ZIP file)
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 19-02-2025
+  Fixes:
+    - bumped to version 2.0.32
+    - changed "result" (simple string) to "results" (table)
+    - there is no result_count anymore, it has been merged with "result" into table "results"
+    - there is no support for short-hand arrays {"item-name", n}, you need to always use full table
+    - moved recipe-functions to "lib", as this is neither a recipe nor a prototype
+    - dropped support for short-hand array as the game does it, too
+    - advanced-electronics -> advanced-circuit
+    - advanced-electronics-2 -> processing-unit
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 25-10-2024
+  Changes:
+    - Added support for 2.0.0
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020-11-24
+  Changes:
+    - Added support for 1.1.0
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 07. 09. 2020
+  Changes :
+    - Updated icons to 64x64,  matching vanilla
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 19. 06. 2020
+  Changes :
+    - Allowing usage of productivy modules for titanium-alloy
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 21. 01. 2020
+  Changes :
+    - Support 0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 30. 12. 2019
+  Changes :
+    - Added thumbnail
+    - Changed group icon
+    - Changed technology graphics
+    - Reordered changelog.txt
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 01. 2019
+  Changes :
+    - Updating to work with 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 08. 25. 2018
+  Changes :
+    - Fixes Repair Pack locale, Repair pack locale was in weaponry mod and if you didnt have it installed
+      repair packs showed up as unknown key
+    - Also fixed technology locale for repair packs.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 05. 25. 2018
+  Changes :
+    - Fixed not being able to use productivity modules in titanium ore
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 03. 30. 2018
+  Changes :
+    - Re-balancing science
