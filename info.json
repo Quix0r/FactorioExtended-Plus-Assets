@@ -7,6 +7,6 @@
     "homepage": "",
     "description": "Graphics assets for my FE+ forks. This repository has the purpose to keep download size small as more changes might happen to LUA files and lesser to graphics.",
     "dependencies": [
-        "base >= 2.0.47"
+        "base >= 2.0.60"
     ]
 }
