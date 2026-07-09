@@ -1,18 +1,28 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2026-07-09
+  Features:
+    - Added graphics from FE+ Equipment, Power
+    - remvoed 'old_icons' (all mods)
+  Changes:
+    - increated patch level of `base` mod to 2.0.77 (latest)
+  Fixes:
+    - changed date format to YYYY-MM-DD
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
-Date: 16-08-2025
+Date: 2025-08-16
   Features:
     - removed graphics for storage-tank-mk2, now uses green tint instead
     - updated .gitignore
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
-Date: 12-05-2025
+Date: 2025-05-12
   Features:
     - removed non-HR images, as all images are now HR
     - bumped dependency due to some incompatible changes 42 -> 47
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
-Date: 26-04-2025
+Date: 2025-04-26
   Initial import:
     - added graphics from: core, machines, module, transport, weaponry
     - added info.json / changelog.txt

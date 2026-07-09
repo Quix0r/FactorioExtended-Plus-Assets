@@ -1,12 +1,12 @@
 {
     "name": "FactorioExtended-Plus-Assets2",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "factorio_version": "2.0",
     "title": "FactorioExtended Plus - Assets 2.0",
     "author": "roland77",
     "homepage": "",
     "description": "Graphics assets for my FE+ 2.0 forks. This repository has the purpose to keep download size small as more changes might happen to LUA files and lesser to graphics.",
     "dependencies": [
-        "base >= 2.0.72"
+        "base >= 2.0.77"
     ]
 }
